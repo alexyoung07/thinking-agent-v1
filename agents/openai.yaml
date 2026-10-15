@@ -1,0 +1,9 @@
+interface:
+  display_name: "Grill Me"
+  short_description: "Pressure-test your thinking"
+  default_prompt: "Grill my thinking on this. Ask one high-leverage question at a time, challenge my assumptions, and synthesize when I say 'wrap up'."
+policy:
+  products:
+    - CHAT
+    - CODEX
+  allow_implicit_invocation: false
